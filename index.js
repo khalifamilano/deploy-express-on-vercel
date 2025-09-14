@@ -72,10 +72,6 @@ app.post("/api/notes",(req,res)=>{
   })
 })
 
-app.get("/",(req,res)=>{
-  res.send("<h1>MILANOX</h1>")
-})
-
 app.get("/api/notes",(req,res)=>{
   res.json(notes)
 })
